@@ -6,15 +6,15 @@ import { useEffect } from "react";
 
 const TronaldDump = () => {
   const [tronaldDump, setTronaldDump] = useState(null);
-  const [search, setSearch] = useState("code");
+
 
   useEffect(() => {
     axios
       .get(
         `https://www.tronalddump.io/random/quote`
       )
-      .then((res) =>  setTronaldDump(res.data.value));
-  }, [search]);
+      .then((res) =>  setTronaldDump(res.data.value)); 
+  }, []);
 
   return (
     <div className="form-component">

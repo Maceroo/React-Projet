@@ -16,7 +16,7 @@ const Header = () => {
           </li>
           <li>
             <NavLink
-              to="/Tronald Dump"
+              to="/TronaldDump"
               className={(nav) => (nav.isActive ? "nav-active" : "")}
             >
               Tronald Dump

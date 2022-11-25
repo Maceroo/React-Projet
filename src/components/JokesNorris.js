@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 const JokesNorris = () => {
   const [chuckJokes, setChuckJokes] = useState(null);
-  const [search, setSearch] = useState("code");
+
 
   useEffect(() => {
     axios
@@ -14,7 +14,7 @@ const JokesNorris = () => {
         `https://api.chucknorris.io/jokes/random`
       )
       .then((res) =>  setChuckJokes(res.data.value));
-  }, [search]);
+  }, []);
 
   return (
     <div className="form-component">
