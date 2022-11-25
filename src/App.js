@@ -1,6 +1,6 @@
 import React from "react";
-import Home from "./pages/Home";
-import LikePage from "./pages/LikePage";
+import Norris from "./pages/Norris";
+import Donald from "./pages/Donald";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
@@ -8,8 +8,8 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         {/* <Route path="/" element={<Home />} /> */}
-        <Route path="/coups-de-coeur" element={<LikePage />} />
-        <Route path="*" element={<Home />} />
+        <Route path="/Tronald Dump" element={<Donald />} />
+        <Route path="*" element={<Norris />} />
       </Routes>
     </BrowserRouter>
   );

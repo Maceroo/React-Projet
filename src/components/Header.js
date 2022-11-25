@@ -11,20 +11,20 @@ const Header = () => {
               to="/"
               className={(nav) => (nav.isActive ? "nav-active" : "")}
             >
-              Accueil
+              Jokes Norris
             </NavLink>
           </li>
           <li>
             <NavLink
-              to="/coups-de-coeur"
+              to="/Tronald Dump"
               className={(nav) => (nav.isActive ? "nav-active" : "")}
             >
-              Coups de coeur
+              Tronald Dump
             </NavLink>
           </li>
         </ul>
       </nav>
-      <h1>React Movies</h1>
+      <h1>TRY TO NOT LAUGH 100% IMPOSSIBLE CHALLENGE</h1>
     </div>
   );
 };
