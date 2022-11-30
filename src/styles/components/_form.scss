@@ -5,15 +5,23 @@ h8{
   padding-bottom: 2%;
   font-style: normal;
   font-family: 'Courier New', monospace;
+  
 }
 
 boutonrefresh {
-  font-size: 10px;
-  background-color: salmon;
-  padding: 0.5% 2%;
+  font-size: 20px;
+  background-color: #C69749;
+  padding: 0.3% 2%;
   font-weight: bold;
-  color: black;
-  font-family: 'Courier New', monospace;
+  color: white;
+  font-family: $font-1;
+  border-radius: 12px;
+
+}
+
+h9{
+  font-size: 30px;
+  
 
 }
 

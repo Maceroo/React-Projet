@@ -11,7 +11,7 @@ const Header = () => {
               to="/"
               className={(nav) => (nav.isActive ? "nav-active" : "")}
             >
-              JokesNorris
+              <h9>JokesNorris</h9>
             </NavLink>
           </li>
           <li>
@@ -19,7 +19,7 @@ const Header = () => {
               to="/TronaldDump"
               className={(nav) => (nav.isActive ? "nav-active" : "")}
             >
-              TronaldDump
+              <h9>TronaldDump</h9>
             </NavLink>
           </li>
         </ul>
