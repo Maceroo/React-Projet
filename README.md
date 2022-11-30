@@ -73,3 +73,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 https://colorhunt.co/palette/000000282a3a735f32c69749
+
+https://needtoknowthat.netlify.app/
