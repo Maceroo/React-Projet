@@ -9,17 +9,30 @@ const TronaldDump = () => {
 
 
   useEffect(() => {
+    callapi()
+    
+  }, []);
+
+  const callapi = () => {
     axios
       .get(
         `https://www.tronalddump.io/random/quote`
       )
       .then((res) =>  setTronaldDump(res.data.value)); 
-  }, []);
+
+  }
 
   return (
-    <div className="form-component">
-      <div className="result">
-        {tronaldDump}
+    <div onClick={()=>callapi()}>
+      <boutonrefresh>refresh</boutonrefresh>
+
+      <div className="form-component">
+        
+        <div className="result">
+          {tronaldDump && 
+            <h8>{tronaldDump}</h8>
+          }
+        </div>
       </div>
     </div>
   );

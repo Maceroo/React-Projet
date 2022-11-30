@@ -1,3 +1,22 @@
+h8{
+  font-size: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  font-style: normal;
+  font-family: 'Courier New', monospace;
+}
+
+boutonrefresh {
+  font-size: 10px;
+  background-color: salmon;
+  padding: 0.5% 2%;
+  font-weight: bold;
+  color: black;
+  font-family: 'Courier New', monospace;
+
+}
+
 .form-component {
   .form-container {
     text-align: center;
@@ -72,4 +91,6 @@
       top: 50%;
     }
   }
+
+  
 }

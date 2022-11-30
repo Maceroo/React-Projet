@@ -2,6 +2,8 @@ import React from "react";
 import JokesNorris from "../components/JokesNorris";
 import Header from "../components/Header";
 
+
+
 const Norris = () => {
   return (
     <div className="home-page">
@@ -11,8 +13,22 @@ const Norris = () => {
           Chuck Norris Jokes  
         </h2>
       </div>
+      <div id="joke">
+        <JokesNorris />
+        <JokesNorris />
+        <JokesNorris />
+        <JokesNorris />
+        <JokesNorris />
+        <JokesNorris />
+        <JokesNorris />
+        <JokesNorris />
+        <JokesNorris />
+        <JokesNorris />
+        <JokesNorris /> 
+      </div>
       
-      <JokesNorris />
+      
+
     </div>
   );
 };

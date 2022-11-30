@@ -11,7 +11,16 @@ const Donald = () => {
           What Donald Trump Thinks About 
         </h2>
       </div>
-      
+      <Tronald />
+      <Tronald />
+      <Tronald />
+      <Tronald />
+      <Tronald />
+      <Tronald />
+      <Tronald />
+      <Tronald />
+      <Tronald />
+      <Tronald />
       <Tronald />
     </div>
   );
