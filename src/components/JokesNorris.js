@@ -24,7 +24,6 @@ const JokesNorris = () => {
 
   return (
     <div onClick={()=>callapi()}>
-      <boutonrefresh>refresh</boutonrefresh>
 
       <div className="form-component">
         
