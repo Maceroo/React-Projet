@@ -9,7 +9,7 @@ const Norris = () => {
     <div className="home-page">
       <Header />
       <div className="user-list-page">
-        <h2>
+        <h2 class="neone">
           Chuck Norris Jokes  
         </h2>
       </div>

@@ -7,7 +7,7 @@ const Donald = () => {
     <div className="home-page">
       <Header />
       <div className="user-list-page">
-        <h2>
+        <h2 className="neone">
           What Donald Trump Thinks About 
         </h2>
       </div>

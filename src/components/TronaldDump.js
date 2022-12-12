@@ -23,18 +23,22 @@ const TronaldDump = () => {
   }
 
   return (
-    <div onClick={()=>callapi()}>
-      
 
-      <div className="form-component">
 
-        <div className="result">
-          {tronaldDump && 
-            <h8>{tronaldDump}</h8>
-          }
+  <div onClick={()=>callapi()} class="card">
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <div className="form-component">
+          <div className="result">
+            {tronaldDump && 
+              <h8>{tronaldDump}</h8>
+            }
+          </div>
         </div>
-      </div>
+      </blockquote>
     </div>
+  </div>
+
   );
 };
 
