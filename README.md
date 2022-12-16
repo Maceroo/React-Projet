@@ -72,6 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-https://colorhunt.co/palette/000000282a3a735f32c69749
+Malheureusement je n'ai pas réussi à mettre en place redux, je pense que mon implémentation est mauvaise dès le départ pour ce genre de choses
+Le design est volontairement immonde
 
 https://needtoknowthat.netlify.app/

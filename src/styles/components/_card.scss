@@ -110,3 +110,12 @@
     }
   }
 }
+
+.center {
+  text-align: center;
+  &:hover {
+    color: #111;
+    background: #39ff14;
+    box-shadow: 0 0 50px #39ff14;
+  }
+}
